@@ -1,31 +1,3 @@
-// import React from 'react';
-// import { Drawer, List, ListItem, ListItemText, IconButton } from '@mui/material';
-// import MenuIcon from '@mui/icons-material/Menu';
-// import { useState } from 'react';
-
-// const HamburgerMenu = () => {
-//   const [open, setOpen] = useState(false);
-
-//   return (
-//     <div>
-//       <IconButton onClick={() => setOpen(true)} color="primary">
-//         <MenuIcon />
-//       </IconButton>
-//       <Drawer anchor="left" open={open} onClose={() => setOpen(false)}>
-//         <List>
-//           {['Home', 'About', 'Services', 'Contact'].map((text) => (
-//             <ListItem button key={text}>
-//               <ListItemText primary={text} />
-//             </ListItem>
-//           ))}
-//         </List>
-//       </Drawer>
-//     </div>
-//   );
-// };
-
-// export default HamburgerMenu;
-
 import React from "react";
 import {
   Drawer,
